@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.card{
+    padding: 1rem;
+    width: 500px;
+    background-color: #dfe1e1;
+    height: max-content
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+input[type="text"] {
+    padding: .5rem;
+    margin: 1rem 0;
+    width: 387px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: .5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    border: none;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .card{
+        width: 350px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    input[type="text"] {
+        width: 242px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 401px) and (max-width: 600px) {
+    
+    .card{
+        width: 380px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    input[type="text"] {
+        width: 272px;
+    }
+  }
